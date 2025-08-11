@@ -43,7 +43,28 @@
   border-bottom: 1px solid black;
 }
 
+.employees_list_names{
+  display: flex;
+  flex-direction: column;
+}
 
+.employees_list_items{
+  cursor: pointer;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  display: flex;
+  border-radius: 10px;
+  background-color: azure;
+  justify-content: space-between;
+  align-items: center;
+}
+.employees_list_items:hover{
+  background-color: rgb(120, 174, 174);
+}
+
+.employees_list_items:selected{
+  background-color: rgb(32, 97, 97);
+}
 .add_employee{
   display: none;
   width: 100%;
